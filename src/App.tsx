@@ -90,7 +90,7 @@ const FAQItem = ({ question, answer }: { question: string, answer: string }) => 
 export default function App() {
   useEffect(() => {
     const s = document.createElement("script");
-    s.src = "https://scripts.converteai.net/1b23d824-f7d5-46ac-8edc-700038ffb33d/players/67ae3e0984c6b51ba4dff28d/v4/player.js";
+    s.src = "https://scripts.converteai.net/1b23d824-f7d5-46ac-8edc-700038ffb33d/players/69c2f9b1f5a026a3bac0931f/v4/player.js";
     s.async = true;
     document.head.appendChild(s);
   }, []);
@@ -116,7 +116,7 @@ export default function App() {
           </p>
           
           <div className="w-full max-w-4xl mx-auto rounded-2xl overflow-hidden shadow-2xl border border-white/10 mb-8 md:mb-12 bg-black/20">
-            <div dangerouslySetInnerHTML={{ __html: '<vturb-smartplayer id="vid-67ae3e0984c6b51ba4dff28d" style="display: block; margin: 0 auto; width: 100%; "></vturb-smartplayer>' }} />
+            <div dangerouslySetInnerHTML={{ __html: '<vturb-smartplayer id="vid-69c2f9b1f5a026a3bac0931f" style="display: block; margin: 0 auto; width: 100%; "></vturb-smartplayer>' }} />
           </div>
 
           <button 
