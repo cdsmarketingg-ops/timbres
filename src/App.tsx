@@ -424,7 +424,7 @@ export default function App() {
             <span className="text-white/40 line-through text-lg md:text-xl block mb-2">De R$ 197,00</span>
             <div className="flex items-center justify-center gap-2">
               <span className="text-xl md:text-2xl font-bold text-gold">R$</span>
-              <span className="text-5xl md:text-7xl font-bold gold-gradient">37,90</span>
+              <span className="text-5xl md:text-7xl font-bold gold-gradient">47,90</span>
             </div>
             <p className="text-white/40 text-[10px] md:text-sm mt-4">Acesso imediato após a confirmação</p>
           </div>
