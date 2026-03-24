@@ -429,9 +429,12 @@ export default function App() {
             <p className="text-white/40 text-[10px] md:text-sm mt-4">Acesso imediato após a confirmação</p>
           </div>
           
-          <button className="btn-premium w-full md:w-auto px-10 md:px-16 py-5 md:py-6 rounded-full text-black font-bold text-lg md:text-xl uppercase tracking-widest mb-6">
-            Quero Garantir Minha Vaga
-          </button>
+          <a 
+            href="https://pay.kiwify.com.br/xFaBXF3"
+            className="btn-premium inline-block w-full md:w-auto px-10 md:px-16 py-5 md:py-6 rounded-full text-black font-bold text-lg md:text-xl uppercase tracking-widest mb-6 text-center"
+          >
+            COMPRAR AGORA
+          </a>
           
           <div className="flex items-center justify-center gap-2 text-white/40 text-[10px] md:text-xs">
             <ShieldCheck className="w-4 h-4" />
